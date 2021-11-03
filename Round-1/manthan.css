@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+
+.example {
+  height: 100%;
+  background-color: #50d4ff;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.jumbotron {
+  background-color: #1a2980;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+}
+.example::-webkit-scrollbar {
+  display: none;
+}
+
+.example {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.timer {
+  font-size: 24px;
+}
+
+.floating-timer {
+  position: fixed;
+  top: 0%;
+  left: 71%;
+}
+
+img {
+  position: absolute;
+  top: 1%;
+  width: 170px;
+  height: 170px;
+  border: 50px;
+}
+
+.card1 {
+  width: 220px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.card:hover {
+  transform: translate(0px, -13px);
+  border-radius: 30px;
+  color: white;
+  box-shadow: 4px 4px 4px 4px rgb(255, 255, 255);
+}
+
+.stretched-link::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  pointer-events: auto;
+  content: "";
+  background-color: rgba(157, 221, 7, 0);
+}
+
+.card {
+  border-radius: 20px;
+  box-shadow: 4px 4px 4px 4px rgb(0, 0, 0);
+  margin: 10px 10px;
+}
+
+.card-cont {
+  font-family: "Josefin Sans", sans-serif;
+}
